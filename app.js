@@ -48,6 +48,7 @@ function renderGame() {
 	sumEl.textContent = 'Sum: ' + sum
 	if (sum < 21) {
 		message = 'Do you want a new card?'
+		messageEl.style.color = '#ffafcc'
 	} else if (sum === 21) {
 		message = 'You got BLACKJACK 🥳'
 		messageEl.style.color = '#ff9e00'
